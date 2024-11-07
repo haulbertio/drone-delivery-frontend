@@ -10,11 +10,11 @@ const LandingPage = () => (
                 <p className="mt-4 text-lg">
                     Experience the convenience of grocery delivery via drone!
                 </p>
-                <Link to="/products">
-                    <button className="mt-8 bg-black text-white px-6 py-2 rounded">
-                        Shop Now
-                    </button>
-                </Link>
+                <div className="mt-8">
+                    <Link to="/signup">
+                        <button className="bg-black text-white px-6 py-2 rounded">Get Started</button>
+                    </Link>
+                </div>
             </div>
             <img src="/images/drone-hero.jpg" alt="Drone Delivery" className="w-1/2" />
         </section>
